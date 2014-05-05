@@ -1,0 +1,12 @@
+fr:
+  ContactPage:
+    EMAIL: 'Votre email'
+    MESSAGE: 'Votre message'
+    SUBJECT: Sujet
+    SUBMIT: envoyer
+    FORM_EMAIL: '<p><strong>Courriel :</strong> {email}</p>'
+    FORM_ERROR: erreur
+    FORM_FINISHED: termine
+    FORM_MESSAGE: '<p><strong>Message :</strong> {message}</p>'
+    FORM_MESSAGE_SUBJECT: '<p><strong>Sujet :</strong> {subject}</p>'
+    FORM_SUBJECT: 'Message enoyé par {email}'

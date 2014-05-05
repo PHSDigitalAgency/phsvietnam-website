@@ -1,0 +1,12 @@
+vi:
+  ContactPage:
+    EMAIL: 'Email của bạn'
+    MESSAGE: 'Tin nhắn của bạn'
+    SUBJECT: 'Chủ đề'
+    SUBMIT: 'gửi'
+    FORM_EMAIL: '<p><strong>Email :</strong> {email}</p>'
+    FORM_ERROR: loi
+    FORM_FINISHED: ket_thuc
+    FORM_MESSAGE: '<p><strong>Tin nhắn :</strong> {message}</p>'
+    FORM_MESSAGE_SUBJECT: '<p><strong>Tiêu đề :</strong> {subject}</p>'
+    FORM_SUBJECT: 'Liên hệ với tin nhắn từ {email}'

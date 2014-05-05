@@ -1,0 +1,10 @@
+en:
+  Footer:
+    Copyright: '&copy; 2013 Phuong Hoang Sat - All right reserved.'
+  MenuTranslations:
+    ShowPageIn: 'Show Page In {lang}'
+  Page:
+    Loading: Loading...
+  ProjectHolder:
+    FeaturedProjects: 'Featured Projects'
+    OurCustomers: 'Our Customers'

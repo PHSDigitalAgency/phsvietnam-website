@@ -1,0 +1,10 @@
+vi:
+  Footer:
+    Copyright: '&copy; 2013 Phượng Hoàng Thu - Tất cả các quyền.'
+  MenuTranslations:
+    ShowPageIn: 'Hiển thị trang Trong {lang}'
+  Page:
+    Loading: Tải...
+  ProjectHolder:
+    FeaturedProjects: 'Đặc trưng dự án'
+    OurCustomers: 'Khách hàng  c&#x1ee7;a chúng tôi'

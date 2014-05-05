@@ -1,0 +1,36 @@
+<% with Parent %>
+<div class="col-sm-12 text-justify">
+	<h3 class="hidden">$Title</h3>
+	$Content
+</div>
+<div class="grid-list-mpu">
+	<div class="col-sm-3 col-md-3 text-center panel-group">
+	<% loop Children %>
+		<% if $Modulus(4,0) = 0 %>
+			<% include ProjectItem %>
+		<% end_if %>
+	<% end_loop %>
+	</div>
+	<div class="col-sm-3 col-md-3 text-center panel-group">
+	<% loop Children %>
+		<% if $Modulus(4,0) = 1 %>
+			<% include ProjectItem %>
+		<% end_if %>
+	<% end_loop %>
+	</div>
+	<div class="col-sm-3 col-md-3 text-center panel-group">
+	<% loop Children %>
+		<% if $Modulus(4,0) = 2 %>
+			<% include ProjectItem %>
+		<% end_if %>
+	<% end_loop %>
+	</div>
+	<div class="col-sm-3 col-md-3 text-center panel-group">
+	<% loop Children %>
+		<% if $Modulus(4,0) = 3 %>
+			<% include ProjectItem %>
+		<% end_if %>
+	<% end_loop %>
+	</div>
+</div>
+<% end_with %>

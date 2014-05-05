@@ -1,0 +1,25 @@
+---
+Name: mysite
+After: 'framework/*','cms/*'
+---
+# YAML configuration for SilverStripe
+# See http://doc.silverstripe.org/framework/en/topics/configuration
+# Caution: Indentation through two spaces, not tabs
+SSViewer:
+  theme: 'phs'
+SiteConfig:
+  extensions:
+    - SiteConfigExtras
+ProjectImage:
+  extensions:
+    - TranslatableDataObject
+Videos:
+  extensions:
+    - TranslatableDataObject
+ContactPage_Controller:
+  allowed_actions:
+    - ContactForm
+    - finished
+    - error
+    - termine
+    - ket_thuc

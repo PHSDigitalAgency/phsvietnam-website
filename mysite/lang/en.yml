@@ -1,0 +1,12 @@
+en:
+  ContactPage:
+    EMAIL: 'Your email'
+    MESSAGE: 'Your message'
+    SUBJECT: Subject
+    SUBMIT: submit
+    FORM_EMAIL: '<p><strong>Email:</strong> {email}</p>'
+    FORM_ERROR: error
+    FORM_FINISHED: finished
+    FORM_MESSAGE: '<p><strong>Message:</strong> {message}</p>'
+    FORM_MESSAGE_SUBJECT: '<p><strong>Subject:</strong> {subject}</p>'
+    FORM_SUBJECT: 'Contact Message from {email}'
